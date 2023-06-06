@@ -33,6 +33,4 @@ my_data_rows= my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 my_cur.execute("insert into fruit_load_list values('from streamlit')")
- streamlit.title('ou will be Cordially Invited to the Exchanges
-...as soon as you submit your Account Locator
-...using the Streamlit form LINKED HERE!')
+
